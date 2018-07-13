@@ -8,4 +8,3 @@
     nnoremap <C-b>  <Esc>:w<CR>:!g++ -std=c++11 %<CR>
 
 
-
