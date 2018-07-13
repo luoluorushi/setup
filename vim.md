@@ -7,6 +7,7 @@
     /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
     ```
     nnoremap <C-b>  <Esc>:w<CR>:!g++ -std=c++11 %<CR>
+    nnoremap <Leader>b  <Esc>:w<CR>:!g++ -std=c++11 %<CR>
 
     ```
 
