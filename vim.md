@@ -5,6 +5,9 @@
 5. 输入时间，输入模式下，[C+r]+=+strftime("%Y/%m/%d")
 6. 针对cpp文件设置快捷键map，在这个文件下增加
     /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
+    ```
     nnoremap <C-b>  <Esc>:w<CR>:!g++ -std=c++11 %<CR>
+
+    ```
 
 
