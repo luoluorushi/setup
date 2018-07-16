@@ -10,5 +10,6 @@
     nnoremap <Leader>b  <Esc>:w<CR>:!g++ -std=c++11 %<CR>
 
     ```
+7. vim自带教程 vimtutor
 
 
