@@ -12,4 +12,5 @@
     ```
 7. vim自带教程 vimtutor
 
+8. YouCompleteMe插件python警告的[处理办法]("https://github.com/Valloric/YouCompleteMe/issues/3062")
 
