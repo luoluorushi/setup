@@ -2,6 +2,17 @@
 2. 复制到系统粘贴板，安装macvim，alias vi=/usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/MacOS/vim
 3. 展开folder zE
 4. 输入emoji，输入模式下[C+v]+u+unicode编码 00a9是版权符号©
+```
+Apple/Command: 2318 ⌘
+Alt/Option: 2325 ⌥
+Shift: 21E7 ⇧
+Enter: 23ce ⏎
+Delete: 232B ⌫
+ESC: 238B ⎋
+Control: 2303 ⌃
+Capslock: 21ea ⇪
+Tab: 8677 ⇥
+```
 5. 输入时间，输入模式下，[C+r]+=+strftime("%Y/%m/%d")
 6. 针对cpp文件设置快捷键map，在这个文件下增加
     /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
