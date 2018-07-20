@@ -25,4 +25,20 @@ Tab: 8677 ⇥
 
 8. YouCompleteMe插件python警告的[处理办法]("https://github.com/Valloric/YouCompleteMe/issues/3062")
 9. chrome 的vim插件[vimium]("https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb");
+10. 默认打开方式改为vim，使用Automator写一个application，执行下面的AppleScript
+```
+on run {input}
+   set the_path to POSIX path of input
+   set cmd to "vim " & quoted form of the_path
+   tell application "System Events" to set terminalIsRunning to exists application process "Terminal"
+   tell application "Terminal"
+      activate
+      if terminalIsRunning is true then
+         do script with command cmd
+      else
+         do script with command cmd in window 1
+      end if
+   end tell
+end run
 
+```
