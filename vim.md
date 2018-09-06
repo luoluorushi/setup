@@ -14,10 +14,13 @@
 
 1. <p id="1">[spf13](https://github.com/spf13/spf13-vim)
 </p>
+
 2. <p id="2">复制到系统粘贴板，安装macvim，alias vi=/usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/MacOS/vim
 </p>
+
 3. <p id="3">展开folder zE
    zE是去除所有折叠，展开用zR，折叠用zM，打开当前折叠zO</p>
+
 4. <p id="4">输入emoji，输入模式下[C+v]+u+unicode编码 00a9是版权符号©
 
 ```
@@ -33,8 +36,10 @@ Tab: 8677 ⇥
 ```
 
 </p>
+
 5. <p id="5">**输入时间**，输入模式下，[C+r]+=+strftime("%Y/%m/%d")
 </p>
+
 6. <p id="6">针对cpp文件设置快捷键map，在这个文件下增加
     /usr/local/Cellar/macvim/8.1-149_1/MacVim.app/Contents/Resources/vim/runtime/ftplugin/cpp.vim
 
@@ -51,11 +56,13 @@ Tab: 8677 ⇥
     ```
 
 </p>
+
 7. <p id="7">vim自带教程 vimtutor
 </p>
 
 8. <p id="8">YouCompleteMe插件python警告的[处理办法]("https://github.com/Valloric/YouCompleteMe/issues/3062")
 </p>
+
 9. <p id="9">chrome 的vim插件[vimium]("https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb");
 </p>
 
@@ -78,6 +85,7 @@ end run
 
 ```
 </p>
+
 11. <p id="11">ctags跳转</br>
   ctags -R 在根目录下生成ctags文件用于分析</br>
   [CTRL+]]跳转到函数定义，CTRL+t跳回</br>
