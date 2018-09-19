@@ -112,6 +112,7 @@ end run
   * 查看buffer， :ls
   * 通过索引跳转， :1b
   * 两个buffer互跳，  Ctrl+^
+
 14. <p id="14">中文乱码处理
 </p>
 ```
@@ -119,10 +120,12 @@ set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set enc=utf8
 set fencs=utf8,gbk,gb2312,gb18030
 ```
+
 15. <p id="15">多窗口操作
 </p>
 >< Ctrl-w > + c关闭当前窗口<br>
 > < Ctrl-w > + hjkl选中窗口
+
 16. <p id="16">vundle插件管理
 </p>
   * :BundleList 列举
