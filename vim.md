@@ -1,6 +1,6 @@
 * [1. spf13](#1)
 * [2. 复制到粘贴版本](#2)
-* [3. 展开folder](#3)
+* [3. 折叠](#3)
 * [4. 输入emoj](#4)
 * [5. 输入时间](#5)
 * [6. 设置map](#6)
@@ -10,6 +10,10 @@
 * [10. 修改文件默认用vim打开](#10)
 * [11. ctags跳转](#11)
 * [12. 多行重复操作](12)
+* [13. buffer操作](13)
+* [14. 中文乱码处理](14)
+* [15. 多窗口操作](15)
+* [16. vundle插件管理](16)
 
 
 1. <p id="1">[spf13](https://github.com/spf13/spf13-vim)
@@ -19,7 +23,11 @@
 </p>
 
 3. <p id="3">展开folder zE
-   zE是去除所有折叠，展开用zR，折叠用zM，打开当前折叠zO</p>
+   zE是去除所有折叠<br>
+   zf%折叠当前括号<br>
+   zc折叠当前行， zo打开当前<br >
+   zM折叠所有,zR展开所有
+   </p>
 
 4. <p id="4">输入emoji，输入模式下[C+v]+u+unicode编码 00a9是版权符号©
 
@@ -98,3 +106,25 @@ end run
 12. <p id="12">多行重复操作</br>
   可视模式选中多行，:之后输入norm! . or norm! @a
 </p>
+
+13. <p id="13">多buffer操作
+</p>
+  * 查看buffer， :ls
+  * 通过索引跳转， :1b
+  * 两个buffer互跳，  Ctrl+^
+14. <p id="14">中文乱码处理
+</p>
+```
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
+```
+15. <p id="15">多窗口操作
+</p>
+>< Ctrl-w > + c关闭当前窗口<br>
+> < Ctrl-w > + hjkl选中窗口
+16. <p id="16">vundle插件管理
+</p>
+  * :BundleList 列举
+  * :BundleInstall 安装所有插件
+  * :BundleClean 清除列表中没有的插件
