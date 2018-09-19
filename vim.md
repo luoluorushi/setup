@@ -9,11 +9,11 @@
 * [9. chrome的vim插件](#9)
 * [10. 修改文件默认用vim打开](#10)
 * [11. ctags跳转](#11)
-* [12. 多行重复操作](12)
-* [13. buffer操作](13)
-* [14. 中文乱码处理](14)
-* [15. 多窗口操作](15)
-* [16. vundle插件管理](16)
+* [12. 多行重复操作](#12)
+* [13. buffer操作](#13)
+* [14. 中文乱码处理](#14)
+* [15. 多窗口操作](#15)
+* [16. vundle插件管理](#16)
 
 
 1. <p id="1">[spf13](https://github.com/spf13/spf13-vim)
@@ -108,26 +108,34 @@ end run
 </p>
 
 13. <p id="13">多buffer操作
-</p>
+
   * 查看buffer， :ls
   * 通过索引跳转， :1b
   * 两个buffer互跳，  Ctrl+^
 
-14. <p id="14">中文乱码处理
 </p>
+
+14. <p id="14">中文乱码处理</br>
+
 ```
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 set enc=utf8
 set fencs=utf8,gbk,gb2312,gb18030
 ```
 
-15. <p id="15">多窗口操作
 </p>
+
+15. <p id="15">多窗口操作<br>
+
 >< Ctrl-w > + c关闭当前窗口<br>
 > < Ctrl-w > + hjkl选中窗口
 
-16. <p id="16">vundle插件管理
 </p>
+
+16. <p id="16">vundle插件管理
+
   * :BundleList 列举
   * :BundleInstall 安装所有插件
   * :BundleClean 清除列表中没有的插件
+  
+</p>
