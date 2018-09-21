@@ -14,6 +14,7 @@
 * [14. 中文乱码处理](#14)
 * [15. 多窗口操作](#15)
 * [16. vundle插件管理](#16)
+* [17. mark标记用法](#17)
 
 
 1. <p id="1">[spf13](https://github.com/spf13/spf13-vim)
@@ -128,7 +129,8 @@ set fencs=utf8,gbk,gb2312,gb18030
 15. <p id="15">多窗口操作<br>
 
 >< Ctrl-w > + c关闭当前窗口<br>
-> < Ctrl-w > + hjkl选中窗口
+> < Ctrl-w > + hjkl选中窗口<br>
+> x，最大化Tagbar当前窗口
 
 </p>
 
@@ -137,5 +139,11 @@ set fencs=utf8,gbk,gb2312,gb18030
   * :BundleList 列举
   * :BundleInstall 安装所有插件
   * :BundleClean 清除列表中没有的插件
+
+</p>
+16. <p id="17">mark标记用法
+
+  * 标记位置ma，mb，mc
+  * 跳转到标记'a, 'b, 'c
 
 </p>
