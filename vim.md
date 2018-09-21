@@ -141,7 +141,7 @@ set fencs=utf8,gbk,gb2312,gb18030
   * :BundleClean 清除列表中没有的插件
 
 </p>
-16. <p id="17">mark标记用法
+17. <p id="17">mark标记用法
 
   * 标记位置ma，mb，mc
   * 跳转到标记'a, 'b, 'c
